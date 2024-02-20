@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     background-color: gray;
     padding: 10px;
@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-.menus{
+.menus {
     list-style: none;
     display: flex;
     gap: 15px;
@@ -20,11 +20,66 @@
     color: aliceblue;
 }
 
-.banner-container{
+.banner-container {
     height: 100vh;
-    background-image: url(./asset/image/background.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-image: url(./asset/image/background.jpg), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.primary {
+    color: orangered;
+}
+
+.description {
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.bg-color {
+    background-color: orangered;
+    color: white;
+}
+
+.service-container {
+    height: 100vh;
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
 }
