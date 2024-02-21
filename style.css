@@ -70,6 +70,8 @@
     background-size: cover;
     color: white;
     display: flex;
+    align-items: center;
+    padding: 20px;
 }
 .icon{
     width: 70px;
@@ -86,4 +88,42 @@
     color: black;
     border-radius: 8px;
     /* box-shadow: 4px 4px 8px lightgrey; */
+}
+
+.service-des{
+    width: 50%;
+}
+.first-sec-box{
+    display: flex;
+    gap: 3px;
+    margin: 3px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    border-right: 2px solid orangered;
+    padding-right: 20px;
+}
+
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
 }
